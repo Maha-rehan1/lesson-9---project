@@ -1,0 +1,44 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:darkolivegreen;
+    color:darkkhaki;
+}
+h1{
+    color:darkkhaki;
+}
+a{
+    color::sienna;
+}
+a:hover{
+    color: olivedrab;
+}
+ul>li{
+    color:black;
+    font-weight: bold;
+}
+h1+p{
+    background-color:tan;
+    border:6px;
+    border-radius:5px;
+    padding:3px;
+    color:sienna;
+}
+ul li:hover{
+    color:peru;
+}
+ul li:nth-child(1){
+    background-color:saddlebrown;
+}
+p:not(:first-of-type){
+    text-decoration: underline;
+}
+ul li::before{
+    content:"-'.🌿.' -"
+}
+a::after{
+    content:"✨"
+}
+p::first-letter{
+    font-size:140%;
+    color:darkred;
+}
